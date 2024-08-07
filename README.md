@@ -3,7 +3,7 @@
 $ rebar clean
 $ rebar compile
 $ rebar shell
-1> code:add_path("/home/will/testcode/router/_build/default/lib/router/ebin").
+1> code:add_path("~/revenant/_build/default/lib/router/ebin").
 true
 2> c(message_router).
 Recompiling /home/will/testcode/router/src/message_router.erl
