@@ -18,6 +18,19 @@ ok
 
 
 Simulation output:
+```
+Script started. Entering main event loop...
+Message generator starting...
+Attempting to connect to the router...
+Connected to the router. Registering as generator...
+Registered as generator. Starting message generation...
+Messages:1000   Time:1.11s      Rate:904.45 msg/s       Gen (2s):1000   Rate (2s):500.00 msg/s
+Messages:2000   Time:2.21s      Rate:905.90 msg/s       Gen (2s):1811   Rate (2s):905.50 msg/s
+Messages:3000   Time:3.31s      Rate:906.02 msg/s       Gen (2s):1813   Rate (2s):906.50 msg/s
+Messages:4000   Time:4.42s      Rate:905.15 msg/s       Gen (2s):1810   Rate (2s):905.00 msg/s
+Messages:5000   Time:5.53s      Rate:904.93 msg/s       Gen (2s):1808   Rate (2s):904.00 msg/s
+Messages:6000   Time:6.63s      Rate:905.15 msg/s       Gen (2s):1809   Rate (2s):904.50 msg/s
+```
 
 ```
 $ ./start.sh  | grep --line-buffered Enricher
